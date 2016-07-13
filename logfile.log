@@ -1,0 +1,33 @@
+2016-07-13 16:20:02,293 INFO  [Basedriver] ***** Opening Chrome Browser ***** 
+2016-07-13 16:20:03,508 INFO  [Basedriver]   
+2016-07-13 16:20:03,508 INFO  [Basedriver] **************************************************  
+2016-07-13 16:20:03,508 INFO  [Basedriver] TestCase Execution Starts for ECafe Project 
+2016-07-13 16:20:03,508 INFO  [Basedriver] **************************************************  
+2016-07-13 16:20:03,508 INFO  [Basedriver]  
+2016-07-13 16:20:03,508 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-13 16:20:03,508 INFO  [Basedriver] *** TestCase - LoginPage *** 
+2016-07-13 16:20:03,508 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-13 16:20:04,222 INFO  [Basedriver] login Test Case Running 
+2016-07-13 16:20:04,293 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login User Id: 11117 
+2016-07-13 16:20:04,368 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login Password: Ecgroup1# 
+2016-07-13 16:20:04,964 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login Button:Pressing Login button 
+2016-07-13 16:20:04,964 INFO  [Basedriver] *****Login Test Case Executed Successfully***** 
+2016-07-13 16:20:05,006 INFO  [Basedriver] *** TestCase - DashBoard - Menu List *** 
+2016-07-13 16:20:05,006 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-13 16:20:05,006 INFO  [Basedriver] DashBoard - Menu Test Case Running 
+2016-07-13 16:20:08,091 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected pressing Menu on DashBoard 
+2016-07-13 16:20:08,091 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Title ECAFE Present 
+2016-07-13 16:20:08,091 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Hello+UserName! Present 
+2016-07-13 16:20:08,091 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected LogOff button Present 
+2016-07-13 16:20:08,091 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Menu on Left side displaying and Birthdays/Wedding Anniversaries displaying on Right Side 
+2016-07-13 16:20:08,091 INFO  [Basedriver] *****DashBoard - Menu Test Case Executed Successfully***** 
+2016-07-13 16:20:08,094 INFO  [Basedriver]  
+2016-07-13 16:20:08,094 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-13 16:20:08,094 INFO  [Basedriver] *** TestCase - LogOutPage *** 
+2016-07-13 16:20:08,094 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-13 16:20:08,094 INFO  [Basedriver] Logout Test Case Running 
+2016-07-13 16:20:11,313 INFO  [Basedriver] TEST PASSED:- The Actual and Expected Pressing LogOff button 
+2016-07-13 16:20:11,313 INFO  [Basedriver] *****LogOut - Test Case Executed Successfully***** 
+2016-07-13 16:20:11,313 INFO  [Basedriver]   
+2016-07-13 16:20:11,313 INFO  [Basedriver] TestCase Execution Finished for ECafe Project 
+2016-07-13 16:20:11,313 INFO  [Basedriver] Closing Driver 
