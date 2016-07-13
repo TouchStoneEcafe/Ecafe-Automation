@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
 	<classpathentry kind="lib" path="D:/Projects/Ecafe-Automation/src/LibFiles/apache-mime4j-0.6.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/Ecafe-Automation/src/LibFiles/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="D:/Projects/Ecafe-Automation/src/LibFiles/cglib-nodep-2.1_3.jar"/>
