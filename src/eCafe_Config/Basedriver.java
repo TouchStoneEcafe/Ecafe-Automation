@@ -37,18 +37,26 @@ public class Basedriver {
 		public static OprLoginPage ref_Opr_Login;
 		public static OprLogoutPage ref_Opr_logoutPage;
 		public static OprDashBoard ref_Opr_DashBoard;
+		public static ReusableMethods RM;
 		
 		//LogFile
 		public static Logger log = Logger.getLogger(Basedriver.class.getName());
+
+		// Property File
 		public static FileInputStream file=null;
 		public static Properties expectedData=null;
-
+		public static Properties inputData=null;
+		
 		@BeforeTest
 		@Parameters({ "browser" })
 					public static void config(String browser) throws Exception {
 						file=new FileInputStream(System.getProperty("user.dir")+"\\src\\eCafe_DDF\\ExpectedDatas.properties");
 						expectedData=new Properties();
 						expectedData.load(file);
+						
+						file=new FileInputStream(System.getProperty("user.dir")+"\\src\\eCafe_DDF\\InputDatas.properties");
+						inputData=new Properties();
+						inputData.load(file);
 						
 					DOMConfigurator.configure("log4j.xml");
 					
@@ -82,7 +90,7 @@ public class Basedriver {
 				ref_Opr_Login = new OprLoginPage();
 				ref_Opr_logoutPage = new OprLogoutPage();
 				ref_Opr_DashBoard = new OprDashBoard();
-				
+				RM=new ReusableMethods();
 				log.info(" ");
 				log.info("************************************************** ");
 				log.info("TestCase Execution Starts for ECafe Project");
