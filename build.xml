@@ -74,6 +74,7 @@
     	            classpath="${test.classpath}"
     	        	includeantruntime="false">
     	</javac>
+    	<java classname="eCafe_Config.Trigger" classpath="${test.dest}" classpathref="test.c" />
         </target>
 
     <!-- build -->
@@ -84,7 +85,7 @@
 
     <!-- run -->
     <target name="ready">
-    	<java classname="fotf_Config.Trigger" classpath="${test.dest}" classpathref="test.c" />
+    	<java classname="eCafe_Config.Trigger" classpath="${test.dest}" classpathref="test.c" />
     </target>
 	
 	<target name="run" depends="compile">

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumJavaFramework" duration-ms="19192" started-at="2016-07-14T12:25:26Z" finished-at="2016-07-14T12:25:45Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="19192" started-at="2016-07-14T12:25:26Z" finished-at="2016-07-14T12:25:45Z">
+      <class name="ecafe_TestCases.ECafe_LoginTests">
+        <test-method status="PASS" signature="config(java.lang.String)[pri:0, instance:ecafe_TestCases.ECafe_LoginTests@2d6e8792]" name="config" is-config="true" duration-ms="4142" started-at="2016-07-14T17:55:26Z" finished-at="2016-07-14T17:55:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="Login_Ec()[pri:0, instance:ecafe_TestCases.ECafe_LoginTests@2d6e8792]" name="Login_Ec" is-config="true" duration-ms="5693" started-at="2016-07-14T17:55:30Z" depends-on-methods="eCafe_Config.Basedriver.config" finished-at="2016-07-14T17:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Ec -->
+        <test-method status="PASS" signature="Dasboard()[pri:0, instance:ecafe_TestCases.ECafe_LoginTests@2d6e8792]" name="Dasboard" duration-ms="3078" started-at="2016-07-14T17:55:36Z" finished-at="2016-07-14T17:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dasboard -->
+        <test-method status="PASS" signature="LogoutPage()[pri:0, instance:ecafe_TestCases.ECafe_LoginTests@2d6e8792]" name="LogoutPage" is-config="true" duration-ms="3955" started-at="2016-07-14T17:55:39Z" finished-at="2016-07-14T17:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:ecafe_TestCases.ECafe_LoginTests@2d6e8792]" name="closeDriver" is-config="true" duration-ms="2311" started-at="2016-07-14T17:55:43Z" depends-on-methods="ecafe_TestCases.ECafe_LoginTests.LogoutPage" finished-at="2016-07-14T17:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- ecafe_TestCases.ECafe_LoginTests -->
+    </test> <!-- Chrome -->
+  </suite> <!-- SeleniumJavaFramework -->
+</testng-results>

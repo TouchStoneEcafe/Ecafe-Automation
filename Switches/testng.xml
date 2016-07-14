@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><suite name="SeleniumJavaFramework"><test name="Chrome"><parameter name="browser" value="Chrome"><classes><class name="eCafe_Testcases.ECafe_TestCases"><methods><include name="Dasboard"/></methods></class></classes></parameter></test></suite>
+<?xml version="1.0" encoding="UTF-8"?><suite name="SeleniumJavaFramework"><test name="Chrome"><parameter name="browser" value="Chrome"><classes><class name="ecafe_TestCases.ECafe_LoginTests"><methods><include name="Dasboard"/></methods></class></classes></parameter></test></suite>

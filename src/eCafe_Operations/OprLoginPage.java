@@ -19,15 +19,22 @@ public class OprLoginPage extends Basedriver{
 	// Login to the Highplains.com
 	public static void loginPage(){
 		
-					log.info("login Test Case Running");
+		log.info("login Test Case Running");
+		String userLabel=null;
 		try{
-			ref_Obj_loginPage.userID.sendKeys(expectedData.getProperty("UserId"));
+		/*	userLabel=Driver.findElement(By.xpath(".//*[@id='loginForm']/form/div[1]/label")).getAttribute("for");
+			Assert.assertEquals(userLabel, expectedData.getProperty("userlabel"));
+		*/	RM.SendKeys(ref_Obj_loginPage.userID, inputData.getProperty("UserId"));
 				log.info("TEST PASSED:- The Actual and Expected - Login User Id: "+ expectedData.getProperty("UserId"));
-			ref_Obj_loginPage.PassWord.sendKeys(expectedData.getProperty("Password"));
+			ref_Obj_loginPage.PassWord.sendKeys(inputData.getProperty("Password"));
 				log.info("TEST PASSED:- The Actual and Expected - Login Password: "+expectedData.getProperty("Password"));
-			ref_Obj_loginPage.Login.click();
+				RM.clickAnElement(ref_Obj_loginPage.Login);
 				log.info("TEST PASSED:- The Actual and Expected - Login Button:"+expectedData.getProperty("Login"));
-		}catch(org.openqa.selenium.NoSuchElementException e){
+		}
+		catch(AssertionError e){
+			log.error("Actual User label is "+ userLabel + " Expected user label is: "+ expectedData.getProperty("userlabel"));
+		}
+		catch(org.openqa.selenium.NoSuchElementException e){
 			log.info("TEST FAILED:- Unable to Click SignIn");
 		}
 				log.info("*****Login Test Case Executed Successfully*****");
