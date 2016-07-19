@@ -10,7 +10,8 @@ public class OprDashBoard extends Basedriver{
 		
 		try{
 				Thread.sleep(3000);
-				ref_Obj_DashBoard.DashBoard_Menu.click();
+				RM.clickAnElement(ref_Obj_DashBoard.DashBoard_Menu);
+				//ref_Obj_DashBoard.DashBoard_Menu.click();
 				log.info("TEST PASSED:- Verifying The Actual and Expected " + expectedData.getProperty("DashBoard_Menu"));
 				log.info("TEST PASSED:- Verifying The Actual and Expected " + expectedData.getProperty("T_ECAFF"));
 				log.info("TEST PASSED:- Verifying The Actual and Expected " + expectedData.getProperty("UserName"));

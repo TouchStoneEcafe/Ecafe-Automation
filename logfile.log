@@ -1,33 +1,33 @@
-2016-07-14 17:55:29,557 INFO  [Basedriver] ***** Opening Chrome Browser ***** 
-2016-07-14 17:55:30,740 INFO  [Basedriver]   
-2016-07-14 17:55:30,740 INFO  [Basedriver] **************************************************  
-2016-07-14 17:55:30,740 INFO  [Basedriver] TestCase Execution Starts for ECafe Project 
-2016-07-14 17:55:30,740 INFO  [Basedriver] **************************************************  
-2016-07-14 17:55:30,740 INFO  [Basedriver]  
-2016-07-14 17:55:30,740 INFO  [Basedriver] _____________________________________________________________________ 
-2016-07-14 17:55:30,740 INFO  [Basedriver] *** TestCase - LoginPage *** 
-2016-07-14 17:55:30,740 INFO  [Basedriver] _____________________________________________________________________ 
-2016-07-14 17:55:32,020 INFO  [Basedriver] login Test Case Running 
-2016-07-14 17:55:32,162 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login User Id: 11117 
-2016-07-14 17:55:32,243 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login Password: Ecgroup1# 
-2016-07-14 17:55:36,433 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login Button:null 
-2016-07-14 17:55:36,433 INFO  [Basedriver] *****Login Test Case Executed Successfully***** 
-2016-07-14 17:55:36,444 INFO  [Basedriver] *** TestCase - DashBoard - Menu List *** 
-2016-07-14 17:55:36,444 INFO  [Basedriver] _____________________________________________________________________ 
-2016-07-14 17:55:36,444 INFO  [Basedriver] DashBoard - Menu Test Case Running 
-2016-07-14 17:55:39,522 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected pressing Menu on DashBoard 
-2016-07-14 17:55:39,522 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Title ECAFE Present 
-2016-07-14 17:55:39,522 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Hello+UserName! Present 
-2016-07-14 17:55:39,522 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected LogOff button Present 
-2016-07-14 17:55:39,522 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Menu on Left side displaying and Birthdays/Wedding Anniversaries displaying on Right Side 
-2016-07-14 17:55:39,522 INFO  [Basedriver] *****DashBoard - Menu Test Case Executed Successfully***** 
-2016-07-14 17:55:39,523 INFO  [Basedriver]  
-2016-07-14 17:55:39,523 INFO  [Basedriver] _____________________________________________________________________ 
-2016-07-14 17:55:39,523 INFO  [Basedriver] *** TestCase - LogOutPage *** 
-2016-07-14 17:55:39,523 INFO  [Basedriver] _____________________________________________________________________ 
-2016-07-14 17:55:39,523 INFO  [Basedriver] Logout Test Case Running 
-2016-07-14 17:55:43,478 INFO  [Basedriver] TEST PASSED:- The Actual and Expected Pressing LogOff button 
-2016-07-14 17:55:43,478 INFO  [Basedriver] *****LogOut - Test Case Executed Successfully***** 
-2016-07-14 17:55:43,478 INFO  [Basedriver]   
-2016-07-14 17:55:43,478 INFO  [Basedriver] TestCase Execution Finished for ECafe Project 
-2016-07-14 17:55:43,478 INFO  [Basedriver] Closing Driver 
+2016-07-19 16:40:39,597 INFO  [Basedriver] ***** Opening Chrome Browser ***** 
+2016-07-19 16:40:40,780 INFO  [Basedriver]   
+2016-07-19 16:40:40,780 INFO  [Basedriver] **************************************************  
+2016-07-19 16:40:40,780 INFO  [Basedriver] TestCase Execution Starts for ECafe Project 
+2016-07-19 16:40:40,780 INFO  [Basedriver] **************************************************  
+2016-07-19 16:40:40,781 INFO  [Basedriver]  
+2016-07-19 16:40:40,781 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-19 16:40:40,781 INFO  [Basedriver] *** TestCase - LoginPage *** 
+2016-07-19 16:40:40,781 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-19 16:40:43,120 INFO  [Basedriver] login Test Case Running 
+2016-07-19 16:40:43,233 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login User Id: 11117 
+2016-07-19 16:40:43,311 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login Password: Ecgroup1# 
+2016-07-19 16:40:45,678 INFO  [Basedriver] TEST PASSED:- The Actual and Expected - Login Button:null 
+2016-07-19 16:40:45,678 INFO  [Basedriver] *****Login Test Case Executed Successfully***** 
+2016-07-19 16:40:45,689 INFO  [Basedriver] *** TestCase - DashBoard - Menu List *** 
+2016-07-19 16:40:45,689 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-19 16:40:45,689 INFO  [Basedriver] DashBoard - Menu Test Case Running 
+2016-07-19 16:40:48,800 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected pressing Menu on DashBoard 
+2016-07-19 16:40:48,800 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Title ECAFE Present 
+2016-07-19 16:40:48,800 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Hello+UserName! Present 
+2016-07-19 16:40:48,801 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected LogOff button Present 
+2016-07-19 16:40:48,801 INFO  [Basedriver] TEST PASSED:- Verifying The Actual and Expected Menu on Left side displaying and Birthdays/Wedding Anniversaries displaying on Right Side 
+2016-07-19 16:40:48,801 INFO  [Basedriver] *****DashBoard - Menu Test Case Executed Successfully***** 
+2016-07-19 16:40:48,802 INFO  [Basedriver]  
+2016-07-19 16:40:48,803 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-19 16:40:48,803 INFO  [Basedriver] *** TestCase - LogOutPage *** 
+2016-07-19 16:40:48,803 INFO  [Basedriver] _____________________________________________________________________ 
+2016-07-19 16:40:48,803 INFO  [Basedriver] Logout Test Case Running 
+2016-07-19 16:40:52,064 INFO  [Basedriver] TEST PASSED:- The Actual and Expected Pressing LogOff button 
+2016-07-19 16:40:52,065 INFO  [Basedriver] *****LogOut - Test Case Executed Successfully***** 
+2016-07-19 16:40:52,065 INFO  [Basedriver]   
+2016-07-19 16:40:52,065 INFO  [Basedriver] TestCase Execution Finished for ECafe Project 
+2016-07-19 16:40:52,065 INFO  [Basedriver] Closing Driver 
